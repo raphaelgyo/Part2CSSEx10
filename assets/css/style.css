@@ -1,0 +1,29 @@
+body {
+  background-color: green;
+}
+#voiture {
+    position: static;
+    display: block;
+    width: 100%;
+}
+@media screen and (max-width: 680px){ /*pour résolution inférieure à 680px*/
+  body {
+    background-color: orange;
+  }
+  #voiture {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 681px) and (max-width: 1279px){
+  body {
+    background-color: blue;
+  }
+  #voiture {
+      position: static;
+      display: block;
+      width: 100%;
+  }
+}
+/*@media screen and (orientation: lanscape) {}*/
